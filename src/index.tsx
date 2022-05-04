@@ -1,5 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
+import { ShapeGameMain } from './Components/ShapeGameMain'
 
 /** Potential polyfills
 import 'core-js/features/array/flat-map'
@@ -10,9 +11,7 @@ import 'raf/polyfill'
 import 'whatwg-fetch'
 */
 
-import './index.css'
-
 ReactDOM.render(
-    <h1>Welcome to Shape Game!</h1>,
+    <ShapeGameMain/>,
     document.getElementById('app-root'),
 )
